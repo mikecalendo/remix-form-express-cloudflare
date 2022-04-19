@@ -15,6 +15,13 @@
     "css:build": "tailwindcss -o ./server/build/styles"
   },
   "dependencies": {
+    "@remix-run/cloudflare-workers": "^1.2.1",
+    "@supabase/supabase-js": "^1.30.4",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "@tailwindcss/typography": "^0.5.2",
+    "tailwindcss": "^3.0.23",
     "@headlessui/react": "^1.4.1",
     "@heroicons/react": "^1.0.4",
     "@reach/checkbox": "^0.16.0",
@@ -36,6 +43,10 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^2.2.2",
+    "cross-env": "^7.0.3",
+    "miniflare": "^2.1.0",
+    "npm-run-all": "^4.1.5",
     "@remix-run/dev": "^1.1.1",
     "@remix-run/serve": "^1.2.1",
     "@tailwindcss/forms": "^0.3.4",
